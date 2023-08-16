@@ -1,0 +1,165 @@
+.btn.help {
+  background-color: #75bf7a;
+  color: white;
+}
+
+.Navigation{
+    margin: 40px;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 500;
+}
+
+.col.txt {
+  align-items: center;
+}
+
+.btn.google {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.btn.apple {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.btn.form {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.description {
+  color: #9e9da2;
+  font-size: large;
+}
+
+/* .container{  
+    padding-top: 40px;
+} */
+
+.container.form {
+  margin-top: 30px;
+  padding: 25px 100px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #75bf7a;
+  color: white;
+  border-radius: 5px;
+}
+
+.logo_title {
+  color: #75bf7a;
+  font-weight: bold;
+}
+
+.working {
+  margin-top: 50px;
+  /* display: flex;
+    justify-content: center; */
+  text-align: center;
+}
+
+.working_title {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.working_desc {
+  color: #9e9da2;
+  font-size: large;
+  padding-top: 20px;
+}
+
+.image_container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay_image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.container.working {
+  margin-top: 100px;
+}
+
+.circle {
+  display: flex;
+  justify-content: right;
+}
+
+.benefits {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.benefits p.desc {
+  text-align: left;
+  color: #9e9da2;
+}
+
+.benefits .card_1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+}
+
+.benefits .card_1 .card_1_text {
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.benefits .card_2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 80px;
+}
+
+.benefits .card_2 .card_2_text {
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.benefits .card_3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  padding-bottom: 200px;
+}
+
+.benefits .card_3 .card_3_text {
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+  flex-wrap: wrap;
+}
