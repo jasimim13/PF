@@ -6,6 +6,16 @@
 .Navigation{
     margin: 40px;
 }
+.col-md-6.text-left.text{
+  margin-top: 100px;
+}
+
+  @media (max-width: 768px) {
+    .col-md-6.text-left.text {
+      text-align: center;
+    }
+  }
+
 
 .nav-link {
   color: black;
@@ -79,12 +89,14 @@
 .working_desc {
   color: #9e9da2;
   font-size: large;
+  text-align: center;
   padding-top: 20px;
 }
 
 .image_container {
   position: relative;
   display: inline-block;
+  margin-top: 100px;
 }
 
 .overlay_image {
@@ -93,6 +105,24 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
+}
+
+.text-container{
+  position: relative;
+      width: 40px;
+      height: 40px;
+      background-image: url('../../assets/Circle.png');
+      background-size: cover;
+      background-position: center;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #75bf7a;
 }
 
 .container.working {
