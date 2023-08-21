@@ -11,11 +11,11 @@
       crossorigin="anonymous"
     />
   </head>
-  <body style="background-color: #f5f5f5d7;" >
+  <body style="background-color: #f5f5f5d7">
     <div class="container">
       <div class="row">
         <!--Cart List-->
-        <div class="col-md-4 order-md-2 mb-4">
+        <div class="col-md-4 col-sm-12 order-md-2 mb-4">
           <h4 class="d-flex justify-content-between align-items-center mb-3">
             <span class="text-muted">Your cart</span>
             <span class="badge badge-secondary badge-pill">3</span>
@@ -51,7 +51,7 @@
             <li class="list-group-item d-flex justify-content-between bg-light">
               <div class="text-success">
                 <h6 class="my-0">Promo code</h6>
-                <small>EXAMPLECODE</small>
+                <small>PFTASK</small>
               </div>
               <span class="text-success">-$5</span>
             </li>
@@ -83,7 +83,9 @@
             <form class="needs-validation" novalidate>
               <div class="row">
                 <div class="col-md-12 mb-3">
-                  <label for="firstName" style="font-weight: 600;" >First name</label>
+                  <label for="firstName" style="font-weight: 600"
+                    >First name</label
+                  >
                   <input
                     type="text"
                     class="form-control"
@@ -96,7 +98,9 @@
                   </div>
                 </div>
                 <div class="col-md-12 mb-3">
-                  <label for="lastName" style="font-weight: 600;" >Last name</label>
+                  <label for="lastName" style="font-weight: 600"
+                    >Last name</label
+                  >
                   <input
                     type="text"
                     class="form-control"
@@ -111,7 +115,7 @@
               </div>
 
               <div class="mb-3">
-                <label for="username" style="font-weight: 600;" >Username</label>
+                <label for="username" style="font-weight: 600">Username</label>
                 <div class="input-group">
                   <div class="input-group-prepend">
                     <span class="input-group-text">@</span>
@@ -130,8 +134,8 @@
               </div>
 
               <div class="mb-3">
-                <label for="email"
-                style="font-weight: 600;" >Email <span class="text-muted">(Optional)</span></label
+                <label for="email" style="font-weight: 600"
+                  >Email <span class="text-muted">(Optional)</span></label
                 >
                 <input
                   type="email"
@@ -145,7 +149,7 @@
               </div>
 
               <div class="mb-3">
-                <label for="address" style="font-weight: 600;" >Address</label>
+                <label for="address" style="font-weight: 600">Address</label>
                 <input
                   type="text"
                   class="form-control"
@@ -159,8 +163,8 @@
               </div>
 
               <div class="mb-3">
-                <label for="address2"
-                style="font-weight: 600;" >Address 2 <span class="text-muted">(Optional)</span></label
+                <label for="address2" style="font-weight: 600"
+                  >Address 2 <span class="text-muted">(Optional)</span></label
                 >
                 <input
                   type="text"
@@ -172,7 +176,7 @@
 
               <div class="row">
                 <div class="col-md-5 mb-3">
-                  <label for="country" style="font-weight: 600;" >Country</label>
+                  <label for="country" style="font-weight: 600">Country</label>
                   <select
                     class="custom-select d-block w-100"
                     id="country"
@@ -189,7 +193,7 @@
                   </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                  <label for="state" style="font-weight: 600;" >State</label>
+                  <label for="state" style="font-weight: 600">State</label>
                   <select
                     class="custom-select d-block w-100"
                     id="state"
@@ -207,7 +211,7 @@
                   </div>
                 </div>
                 <div class="col-md-3 mb-3">
-                  <label for="zip" style="font-weight: 600;" >Zip</label>
+                  <label for="zip" style="font-weight: 600">Zip</label>
                   <input
                     type="text"
                     class="form-control"
@@ -254,7 +258,7 @@
                     required
                   />
                   <label class="custom-control-label" for="credit"
-                     >Credit card</label
+                    >Credit card</label
                   >
                 </div>
                 <div class="custom-control custom-radio">
@@ -284,7 +288,9 @@
               </div>
               <div class="row">
                 <div class="col-md-6 mb-3">
-                  <label for="cc-name" style="font-weight: 600;" >Name on card</label>
+                  <label for="cc-name" style="font-weight: 600"
+                    >Name on card</label
+                  >
                   <input
                     type="text"
                     class="form-control"
@@ -298,7 +304,9 @@
                   <div class="invalid-feedback">Name on card is required</div>
                 </div>
                 <div class="col-md-6 mb-3">
-                  <label for="cc-number" style="font-weight: 600;" >Credit card number</label>
+                  <label for="cc-number" style="font-weight: 600"
+                    >Credit card number</label
+                  >
                   <input
                     type="text"
                     class="form-control"
@@ -313,7 +321,9 @@
               </div>
               <div class="row">
                 <div class="col-md-3 mb-3">
-                  <label for="cc-expiration" style="font-weight: 600;" >Expiration</label>
+                  <label for="cc-expiration" style="font-weight: 600"
+                    >Expiration</label
+                  >
                   <input
                     type="text"
                     class="form-control"
@@ -324,7 +334,7 @@
                   <div class="invalid-feedback">Expiration date required</div>
                 </div>
                 <div class="col-md-3 mb-3">
-                  <label for="cc-cvv" style="font-weight: 600;" >CVV</label>
+                  <label for="cc-cvv" style="font-weight: 600">CVV</label>
                   <input
                     type="text"
                     class="form-control"
@@ -345,6 +355,6 @@
         <!--Bootstrap Form-->
       </div>
     </div>
-    <script src="../src/utils/script.js" ></script>
+    <script src="../src/utils/script.js"></script>
   </body>
 </html>
